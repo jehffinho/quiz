@@ -47,7 +47,7 @@ main{
     height: 32px;
     font-size: 22px;
     border-radius: 8px;
-    border: solid 3px black;
+    border: solid 3px rgb(17, 16, 16);
     cursor: pointer;
     transition: 0.8s;
     margin: 18px 210px ;
