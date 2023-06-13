@@ -1,0 +1,135 @@
+body{
+    background-image: url(../images/fundo.jpg);
+    background-size: cover;    
+}
+
+
+
+main{
+
+    height: 98vh;
+    display: flex;    
+    justify-content: center;
+    align-items: center;    
+}
+
+
+.container{
+    background-color: rgb(177, 218, 218);
+    width: 650px;
+    height: 450px;
+    border-radius: 15px;
+    border: groove 25px rgb(20, 69, 100);
+    gap: 20px;
+           
+}
+
+.informacoes{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.logotipo{
+    width: 150px;
+    height: 100px;
+    margin: 15px ;
+    
+}
+
+
+
+.botao{
+    
+    background-color: rgb(7, 95, 129);
+    width: 200px;
+    height: 32px;
+    font-size: 22px;
+    border-radius: 8px;
+    border: solid 3px black;
+    cursor: pointer;
+    transition: 0.8s;
+    margin: 18px 210px ;
+}
+
+.botao:hover{
+    background-color: green;
+    color: rgb(243, 239, 239);
+}
+
+
+.trofeu, .relogio{
+    width: 22px;
+    height: 22px;
+}
+
+
+.titulo{
+    margin: 5px;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+
+img {
+    mix-blend-mode: multiply;
+  }
+
+.jogador{
+    margin-left: 5px;
+    font-size: 18px;
+    text-decoration: underline;
+} 
+
+.ranking ol li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 600;
+    align-items: center;
+    
+   
+}
+
+.ranking ol li .pontos,
+.tempo{
+    text-decoration: underline;
+    padding: 8px;
+    font-weight: 500;
+    margin-left: 50px;
+   
+}
+
+.img-ranking{
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    margin: 10px;    
+}
+
+.relogio{
+    margin-right: 15px;
+}
+
+.trofeu{
+    margin-right: 20px;
+}
+    
+.seta{
+    width: 7px;
+    height: 7px;
+    margin-left: 130px;
+}   
+    
+    
+ 
+
+
+
+
+
+
+
+
